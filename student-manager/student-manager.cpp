@@ -25,6 +25,7 @@ typedef struct Node{
 			enum studentcategory{Undergraduate=1,Postgraduate=2};
 			struct Node *next;
 }NODE;
+
 NODE *head;
 void add_student_menu();                                                  /*添加学生菜单函数*/
 NODE *add_student(int select,NODE *p2,int i);                             /*添加学生实现函数*/
